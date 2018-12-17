@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
-from gensim.models.keyedvectors import KeyedVectors
-from gensim.models import word2vec
+#from gensim.models.keyedvectors import KeyedVectors
+#from gensim.models import word2vec
 import numpy as np
 #from keras.layers import Embedding
 import tensorflow as tf
@@ -1185,7 +1185,7 @@ if __name__ == '__main__':
     print(len(word_index))
     np.save('word_index.npy',word_index)
     '''
-    word_index=np.load('word_index.npy').item()
+    #word_index=np.load('word_index.npy').item()
 
     ######制作矩阵过程index-embeddings##########
     '''
@@ -1199,7 +1199,7 @@ if __name__ == '__main__':
     np.save('embedding_matrix.npy',embedding_matrix)
     '''
     ###制作矩阵的过程index-embeddings###
-    embedding_matrix=np.load('embedding_matrix.npy')
+    #embedding_matrix=np.load('embedding_matrix.npy')
     ##源语言字典 可以任意改。
     en_vocab=[]
     with open(vocab_source,'r') as file:
