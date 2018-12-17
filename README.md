@@ -10,4 +10,6 @@ new_attest22.py is main program.
 
 i'm sorry for comment is chinese in this version.
 
-we can get visualized data by tensorboard --logdir= 
+we can get visualized data by 'tensorboard --logdir=parameterTT22graph_8' 
+
+
