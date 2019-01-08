@@ -14,4 +14,5 @@ I'm sorry for comment is chinese in this version.
 
 we can get visualized parameters by 'tensorboard --logdir=parameterTT22graph_8' 
 
-
+![Image text]
+NMT-SelfAttention-LSTM/img-folder/Attention_Std.pdf 
